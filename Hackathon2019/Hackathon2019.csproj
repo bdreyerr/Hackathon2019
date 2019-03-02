@@ -98,7 +98,11 @@
       <Version>60.1142.1</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\account.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Drawable\AccountIcon.png" />
   </ItemGroup>
@@ -107,6 +111,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Drawable\SearchIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\messaging.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
