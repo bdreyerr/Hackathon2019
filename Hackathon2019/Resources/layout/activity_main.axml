@@ -3,5 +3,35 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="200px"
+	android:layout_weight=".1"
+	android:gravity="bottom"
+	>
+		<ImageButton
+			android:src="@drawable/accounticon"
+			android:text="Profile"
+			android:scaleType="centerInside"
+			android:layout_width="match_parent"
+			android:layout_height="150px"
+			android:layout_toLeftOf="@id/navigation"
+			android:layout_alignParentBottom="true"
+			android:id="@+id/profile" />
+		<ImageButton
+			android:src="@drawable/searchicon"
+			android:text="Navigation"
+			android:scaleType="centerInside"
+			android:layout_width="250px"
+			android:layout_height="150px"
+			android:layout_centerInParent="true"
+			android:layout_alignParentBottom="true"
+			android:id="@+id/navigation"/>
+		<ImageButton
+			android:src="@drawable/messageicon"
+			android:text="Messaging"
+			android:scaleType="centerInside"
+			android:layout_width="2500px"
+			android:layout_height="150px"
+			android:layout_toRightOf="@id/navigation"
+			android:layout_alignParentBottom="true"
+			android:id="@+id/messaging"/>
 </RelativeLayout>
