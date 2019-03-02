@@ -3,5 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+	>
+	
+	<Button
+		android:text="Profile"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="50px"
+		android:minHeight="25px"
+		android:id="@+id/profile" />
+	<Button
+		android:text="Search"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="50px"
+		android:minHeight="25px"
+		android:id="@+id/search" />
+	<Button
+		android:text="Messaging"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="50px"
+		android:minHeight="25px"
+		android:id="@+id/messaging" />
 </RelativeLayout>
