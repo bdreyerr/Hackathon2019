@@ -2615,6 +2615,9 @@ namespace Hackathon2019
 			// aapt resource value: 0x7f080028
 			public const int multiply = 2131230760;
 			
+			// aapt resource value: 0x7f08008c
+			public const int navigation = 2131230860;
+			
 			// aapt resource value: 0x7f080096
 			public const int navigation_header_container = 2131230870;
 			
@@ -2695,9 +2698,6 @@ namespace Hackathon2019
 			
 			// aapt resource value: 0x7f080055
 			public const int scrollable = 2131230805;
-			
-			// aapt resource value: 0x7f08008c
-			public const int search = 2131230860;
 			
 			// aapt resource value: 0x7f080080
 			public const int search_badge = 2131230848;

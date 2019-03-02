@@ -94,8 +94,15 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2.1" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Resources\Drawable\" />
+    <AndroidResource Include="Resources\Drawable\AccountIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\MessageIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\SearchIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

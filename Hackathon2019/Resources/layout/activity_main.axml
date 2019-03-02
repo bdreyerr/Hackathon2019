@@ -3,28 +3,33 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="200px"
+	android:layout_weight="0.2"
+	android:gravity="bottom"
 	>
-	
-	<Button
+
+	<ImageButton
+		android:src="@drawable/accounticon"
 		android:text="Profile"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:minWidth="50px"
-		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="200px"
+		android:layout_toLeftOf="@id/navigation"
+		android:layout_alignParentBottom="true"
 		android:id="@+id/profile" />
-	<Button
-		android:text="Search"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:minWidth="50px"
-		android:minHeight="25px"
-		android:id="@+id/search" />
-	<Button
+	<ImageButton
+		android:src="@drawable/searchicon"
+		android:text="Navigation"
+		android:layout_width="250px"
+		android:layout_height="200px"
+		android:layout_centerInParent="true"
+		android:layout_alignParentBottom="true"
+		android:id="@+id/navigation"/>
+	<ImageButton
+		android:src="@drawable/messageicon"
 		android:text="Messaging"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:minWidth="50px"
-		android:minHeight="25px"
-		android:id="@+id/messaging" />
+		android:layout_width="2500px"
+		android:layout_height="200px"
+		android:layout_toRightOf="@id/navigation"
+		android:layout_alignParentBottom="true"
+		android:id="@+id/messaging"/>
 </RelativeLayout>
