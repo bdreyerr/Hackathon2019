@@ -17,7 +17,8 @@
 		class="com.google.android.gms.maps.SupportMapFragment"
 	/>
 
-		<ImageButton
+
+	<!--<ImageButton
 			android:src="@drawable/accounticon"
 			android:text="Profile"
 			android:scaleType="centerInside"
@@ -43,5 +44,6 @@
 			android:layout_height="150px"
 			android:layout_toRightOf="@id/navigation"
 			android:layout_alignParentBottom="true"
-			android:id="@+id/messaging"/>
+			android:id="@+id/messaging"/>-->
+		
 </RelativeLayout>

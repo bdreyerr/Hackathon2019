@@ -7,7 +7,7 @@ using Android.Gms.Maps;
 
 namespace Hackathon2019
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/MainTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity, IOnMapReadyCallback
     {
         GoogleMap mainMap;
